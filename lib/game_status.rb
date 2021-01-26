@@ -29,3 +29,6 @@ WIN_COMBINATIONS.detect do |combo|
   end
  end
 end
+
+def full?(board)
+end
