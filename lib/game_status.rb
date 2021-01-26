@@ -53,10 +53,11 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == "X"
+  if won?(board) == "X" && "X" && "X"
     return "X"
-  else won?(board) != "X"
+  elsif won?(board) == "O" && "O" && "O"
     return "O"
-    binding.pry
+  else
+    return nil
   end
 end
