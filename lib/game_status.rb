@@ -35,3 +35,6 @@ def full?(board)
     character == "X" || character == "O"
   end
 end
+
+def draw?(board)
+end
