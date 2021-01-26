@@ -34,8 +34,5 @@ def full?(board)
   board.all? do |character|
     position_taken?(board, character)
       return true
-    else
-      return false
-    end
   end
 end
