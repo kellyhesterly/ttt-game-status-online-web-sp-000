@@ -25,15 +25,7 @@ WIN_COMBINATIONS.detect do |combo|
 
   if position_1 == "X" && position_2 == "X" && position_3 == "X" ||
      position_1 == "O" && position_2 == "O" && position_3 == "O"
-     return combo
-  end
- end
-end
-
-def full?(board)
-  board.all? do |character|
-  if character == position_taken?(board, character)
-    return true
-  end
-  end
+    return combo
+    end
+  end  
 end
