@@ -35,4 +35,5 @@ def full?(board)
     if position_taken?(board, character)
       return true
     end
+  end
 end
