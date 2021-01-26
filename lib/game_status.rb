@@ -31,4 +31,8 @@ WIN_COMBINATIONS.detect do |combo|
 end
 
 def full?(board)
+  board.all? do |character|
+    if position_taken?(board, character)
+      return true
+    end
 end
