@@ -57,5 +57,6 @@ def winner(board)
     return "X"
   else won?(board) != "X"
     return "O"
+    binding.pry
   end
 end
