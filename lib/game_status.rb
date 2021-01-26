@@ -57,6 +57,5 @@ def winner(board)
     return "X"
   elsif won?(board) == combo "O"
     return "O"
-  else
-    nil
+  end
 end
