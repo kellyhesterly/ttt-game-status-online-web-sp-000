@@ -53,11 +53,10 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == "O"
-    return "O"
-  elsif won?(board) == "X"
+  if won?(board) == combo "X"
     return "X"
-  else !won?(board)
-    return nil
-  end
+  elsif won?(board) == combo "O"
+    return "O"
+  else
+    nil
 end
