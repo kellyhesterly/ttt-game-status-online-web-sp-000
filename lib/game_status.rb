@@ -32,7 +32,7 @@ end
 
 def full?(board)
   board.all? do |character|
-    position_taken?(board, character)
-      return true
+  if character == position_taken?(board, character)
+    return true
   end
 end
