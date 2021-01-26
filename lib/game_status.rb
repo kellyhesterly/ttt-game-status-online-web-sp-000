@@ -56,5 +56,5 @@ end
 
 def winner(board)
   won?(board)
-  return X : O
+  return "X" : "O"
 end
